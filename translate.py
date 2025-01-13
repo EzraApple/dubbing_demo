@@ -22,9 +22,6 @@ class Translator:
         self.source_lang = source_lang
         self.target_lang = target_lang
 
-        # (Optional) This step ensures that the relevant Argos packages are installed.
-        # You could skip this if you've already installed the package manually.
-        # For a proof-of-concept, it's convenient to do it here.
         self._install_language_package()
 
     def _install_language_package(self):
