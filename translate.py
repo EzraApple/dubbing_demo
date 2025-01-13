@@ -1,5 +1,3 @@
-# translator.py
-
 import argostranslate.package
 import argostranslate.translate
 import os

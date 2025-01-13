@@ -1,5 +1,3 @@
-# transcribe.py
-
 import whisper
 
 
